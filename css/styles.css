@@ -1,184 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
 
 body {
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Styling Hero Section */
 .hero-section {
-    background-color: #1F2937;
+  background-color: #1f2937;
 }
 
 .hero-section header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
 }
 
 .hero-section header .logo {
-    font-size: 24px;
-    font-weight: 700;
-    color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
 }
 
 .hero-section header nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
 }
 
-.hero-section header nav ul li a{
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
+.hero-section header nav ul li a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
 .main-hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12rem 10%;
 }
 
 .main-hero-section .hero-section-description {
-    max-width: 450px;
+  max-width: 450px;
 }
 
 .main-hero-section .hero-section-description h1 {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
 }
 
 .hero-section .hero-section-description p {
-    font-size: 18px;
-    color: #E5E7EB;
-    margin-top: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 0;
 }
 
 .hero-section .hero-section-description button {
-    border: none;
-    color: white;
-    font-weight: 700;
-    background-color: #3882F6;
-    padding: 12px 30px;
-    border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: #3882f6;
+  padding: 12px 30px;
+  border-radius: 10px;
 }
 
 .hero-section .hero-section-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    width: 600px;
-    height: 300px;
-    color: #E5E7EB;
-    background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 600px;
+  height: 300px;
+  color: #e5e7eb;
+  background-color: gray;
 }
 
 /* Some random information section */
 .container {
-    flex: 1;
+  flex: 1;
 }
 .some-random-information-section {
-    text-align: center;
-    margin: 100px 0;
+  text-align: center;
+  margin: 100px 0;
 }
 
-.some-random-information-section h2{
-    font-size: 28px;
-    font-weight: 700;
-    margin: 40px 0;
+.some-random-information-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 40px 0;
 }
 
 .card-container-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
 
 .card-container-section .card-container {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .card-container-section .card-container .card {
-    width: 200px;
-    height: 200px;
-    border: 3px solid #3882F6;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px  #5791f0;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #5791f0;
 }
 
 /* Inspiring Quote Section */
 
 .inspiring-quote-section {
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
-    background-color: #E5E7EB;
-    padding: 90px 10%;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  background-color: #e5e7eb;
+  padding: 90px 10%;
 }
 
 .inspiring-quote-section .text2 {
-    font-weight: 700;
-    font-size: 24px;
-    text-align: end;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: end;
 }
 
 /* Call to Action Section */
 
 .call-to-action-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3rem 0;
-    background-color: #3882F6;
-    border-radius: 10px;
-    margin: 10rem 10%;
-    box-shadow:  0 2px 5px 5px rgb(228, 228, 228);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+  background-color: #3882f6;
+  border-radius: 10px;
+  margin: 10rem 10%;
+  box-shadow: 0 2px 5px 5px rgb(228, 228, 228);
 }
 
 .call-to-action-section .call-to-action-text h3 {
-    font-size: 22px;
-    color: #F9FAF8;
-    margin-bottom: 0;
+  font-size: 22px;
+  color: #f9faf8;
+  margin-bottom: 0;
 }
 
 .call-to-action-section .call-to-action-text p {
-    font-size: 18px;
-    color: #E5E7EB;
-    margin-top: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 0;
 }
 
 .call-to-action-section .button button {
-    font-weight: 700;
-    font-size: 16px;
-    color: #F9FAF8;
-    border-radius: 10px;
-    border: 2px solid #ffffff;
-    background-color: #3882F6;
-    padding: 14px 30px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f9faf8;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background-color: #3882f6;
+  padding: 14px 30px;
 }
 
 /* Footer Section */
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #F9FAF8;
-    font-size: 18px;
-    padding: 2.5rem;
-    background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 2.5rem;
+  background-color: #1f2937;
 }
